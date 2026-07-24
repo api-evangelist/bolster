@@ -1,8 +1,23 @@
 aid: bolster
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bolster.png
 name: Bolster
-description: Bolster is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bolster is an executive search and recruiting platform that pairs experienced recruiters
+  with an AI-powered talent platform to place full-time executives, board members, and fractional or
+  interim leaders for high-growth companies, startups, and venture capital firms. Bolster emphasizes
+  speed (typically five days to a first interview), transparent flat-fee pricing, and a data-driven
+  approach informed by analysis of more than 280,000 executives across 30,000+ companies, with 350+
+  placements and a 40% repeat-client rate. It is backed by Union Square Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/bolster/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Executive Search
+- Recruiting
+- Talent Marketplace
+- Fractional Executives
+- Board Search
+- Hiring
+- Human Resources
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bolster-domain-security.yml
 - type: Website
   url: https://bolster.com
+- type: Blog
+  url: https://bolster.com/blog
+- type: Pricing
+  url: https://bolster.com/pricing
+- type: SignUp
+  url: https://pages.bolster.com/join
+- type: Support
+  url: https://bolster.com/contact
+- type: TermsOfService
+  url: https://bolster.com/terms
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/70057837
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
